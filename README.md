@@ -19,8 +19,10 @@ Add tests commands to `package.json`
 "test": "npm rebuild node-sass && npm run build && npm run test:unit && npm run test:functionnal"
 ```
 
+Locally, you can use `npm run test` as usual.
+
 # Usage
-Just start a DockerFile on your projet with a script (it's better) to run your test.
+Just start a DockerFile on your project with a script (it's better) to run your tests.
 
 ```
 FROM bluja/angular-headless-ci:latest
