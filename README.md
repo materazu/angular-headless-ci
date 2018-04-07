@@ -1,5 +1,10 @@
 # Angular-headless-ci
-Angular cli test and e2e in headless context (gitlab runner for ex.) - include openJdk for sonar and Chrome latest
+Angular cli test and e2e in headless context (gitlab runner for ex.) - include openJdk for sonar and Chrome latest.
+Commands runs :
+  - a rebuild for node-sass for the running env.
+  - a prod build of your app
+  - ng test for unit tests
+  - ng e2e for end to end tests
 
 # Start
 We start from the principle that you have a root folder with Dockerfile and scripts and angular application in an `app` folder.
