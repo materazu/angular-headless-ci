@@ -1,5 +1,8 @@
 # Angular-headless-ci
-Angular cli test and e2e in headless context (gitlab runner for ex.) - include openJdk for sonar and Chrome latest.
+Angular cli test and e2e in headless context (gitlab runner for ex.) over docker.
+Include openJdk for sonar and Chrome latest for headless e2e.
+Unit tests are handled by puppeteer.
+
 Commands runs :
   - a rebuild for node-sass for the running env.
   - a prod build of your app
