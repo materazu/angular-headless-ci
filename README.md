@@ -8,7 +8,7 @@ Your tests must be in `app/src/app/tests/` and `e2e` folder for End to End tests
 Adapt that as you want ;)
 
 # Required
-You must add `"jasmine-reporters": "latest"` to the `devDependencies` of your angular project.
+You must add `"puppeteer": "0.10.2"` to the `devDependencies` of your angular project, because we use it for Karma.
 Use our protractor and karma config files.
 
 Add tests commands to `package.json`
