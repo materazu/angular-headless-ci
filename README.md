@@ -14,9 +14,9 @@ Use our protractor and karma config files.
 Add tests commands to `package.json`
 ```
 "build": "node_modules/@angular/cli/bin/ng build --prod --progress=false",
-"test:functionnal": "node_modules/@angular/cli/bin/ng e2e",
-"test:unit": "node_modules/@angular/cli/bin/ng test --watch false --progress false --code-coverage",
-"test": "npm rebuild node-sass && npm run build && npm run test:unit && npm run test:functionnal"
+"test:ng-e2e": "node_modules/@angular/cli/bin/ng e2e",
+"test:ng-test": "node_modules/@angular/cli/bin/ng test --watch false --progress false --code-coverage",
+"test": "npm rebuild node-sass && npm run build && npm run test:ng-test && npm run test:ng-e2e"
 ```
 
 Locally, you can use `npm run test` as usual.
